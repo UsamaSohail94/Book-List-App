@@ -1,8 +1,9 @@
-import React,{useContext,useState} from 'react'
+import React,{useContext} from 'react'
 import { BookContext } from './BookContext'
 
 
 const RemoveButton = ({bookID}) => {
+    // eslint-disable-next-line
     const [books, setBooks] = useContext(BookContext)
 
     const updatedList = books.filter(item => {

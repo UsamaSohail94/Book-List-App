@@ -5,6 +5,7 @@ const AddBooks = ()=> {
 
 const [name, setName] = useState('')
 const [price, setPrice] = useState(0)
+// eslint-disable-next-line
 const [books, setBooks] = useContext(BookContext)
 let newId
 
