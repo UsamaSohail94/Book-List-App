@@ -1,0 +1,6 @@
+({books.map(book => {
+            return(
+                <Book name = {book.name} price = {book.price} key={book.id}/>
+            )
+        }
+        )})
